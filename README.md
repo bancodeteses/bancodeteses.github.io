@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#EEEFE9">
-<title>Banco de Teses ANPD — repertório de entendimentos</title>
+<title>Banco de Teses</title>
 <meta name="description" content="Coletânea de entendimentos da ANPD extraídos de votos, notas técnicas, relatórios e guias, com contexto, fundamento normativo e ressalvas de alcance.">
 <meta property="og:title" content="Banco de Teses ANPD">
 <meta property="og:description" content="Coletânea de entendimentos da ANPD extraídos de votos, notas técnicas, relatórios e guias, com contexto, fundamento normativo e ressalvas de alcance.">
