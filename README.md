@@ -3,7 +3,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#EEEFE9">
-<title>Banco de Teses</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='5' fill='%230E5B54'/><text x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23ffffff' text-anchor='middle'>T</text></svg>">
+<title>Banco de Teses ANPD — repertório de entendimentos</title>
 <meta name="description" content="Coletânea de entendimentos da ANPD extraídos de votos, notas técnicas, relatórios e guias, com contexto, fundamento normativo e ressalvas de alcance.">
 <meta property="og:title" content="Banco de Teses ANPD">
 <meta property="og:description" content="Coletânea de entendimentos da ANPD extraídos de votos, notas técnicas, relatórios e guias, com contexto, fundamento normativo e ressalvas de alcance.">
@@ -183,8 +184,6 @@ a{color:var(--accent)}
 .copy{flex:0 0 auto;background:var(--accent);color:#fff;border:0;border-radius:2px;font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;padding:6px 10px}
 .copy:hover{background:var(--accent-deep)}
 .copy.ok{background:var(--ink)}
-.warn{background:var(--surface);border:1px solid var(--ochre-line);border-left:3px solid var(--ochre);border-radius:2px;padding:10px 13px;margin-bottom:16px;font-size:12.5px;color:#5C4207;display:flex;gap:9px;line-height:1.45}
-.warn svg{flex:0 0 auto;margin-top:2px;color:var(--ochre)}
 .rel{display:flex;gap:7px;flex-wrap:wrap}
 .rel button{background:var(--surface);border:1px solid var(--rule);border-radius:2px;font-family:var(--mono);font-size:11.5px;color:var(--accent);padding:6px 10px}
 .rel button:hover{border-color:var(--accent);background:var(--accent-tint)}
@@ -489,7 +488,6 @@ function openF(id){
   for(i=0;i<cur.length;i++){if(cur[i].id===id){idx=i;break;}}
   var prev=idx>0?cur[idx-1].id:'', next=(idx>=0&&idx<cur.length-1)?cur[idx+1].id:'';
   var parts=refParts(t.ref);
-  var low=t.p==='Baixo';
   $('ficha').innerHTML=
   '<div class="fin">'+
     '<div class="fbar"><span class="sigla">'+t.id+'</span><div class="nav">'+
@@ -497,7 +495,6 @@ function openF(id){
       '<button class="ib" type="button" data-go="'+next+'"'+(next?'':' disabled')+' aria-label="Próximo verbete"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></button>'+
       '<button class="ib" type="button" id="fclose" aria-label="Fechar"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg></button>'+
     '</div></div>'+
-    (low?'<div class="warn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg><div>Tese extraída de peça pré-decisional, sujeita a alteração. Confira o texto final antes de citar em processo ativo.</div></div>':'')+
     '<div class="ftags"><span class="tag">'+esc(t.top)+'</span><span class="tag '+escClass(t.esc)+'">'+esc(t.esc)+'</span>'+pesoHTML(t.p)+'</div>'+
     '<h2>'+esc(t.t)+'</h2>'+
     '<div class="field"><h4>Contexto</h4><p>'+esc(t.ctx)+'</p></div>'+
@@ -608,5 +605,7 @@ else if(h==='#/sobre')go('sobre');
 else if(h==='#/contato')go('contato');
 })();
 </script>
+
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "84dbdbdd09e0421da7e7ecb564b55e46"}'></script>
 </body>
 </html>
