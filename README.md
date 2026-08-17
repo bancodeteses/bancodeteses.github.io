@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#EEEFE9">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='5' fill='%230E5B54'/><text x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23ffffff' text-anchor='middle'>T</text></svg>">
-<title>Banco de Teses ANPD — repertório de entendimentos</title>
+<title>Banco de Teses ANPD</title>
 <meta name="description" content="Coletânea de entendimentos da ANPD extraídos de votos, notas técnicas, relatórios e guias, com contexto, fundamento normativo e ressalvas de alcance.">
 <meta property="og:title" content="Banco de Teses ANPD">
 <meta property="og:description" content="Coletânea de entendimentos da ANPD extraídos de votos, notas técnicas, relatórios e guias, com contexto, fundamento normativo e ressalvas de alcance.">
