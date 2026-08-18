@@ -330,7 +330,7 @@ footer{border-top:1px solid var(--rule);background:var(--surface);padding:30px 0
     <p>A busca é livre e alcança o texto integral das teses. Os filtros permitem recortar o banco por tópico, por escopo normativo e por peso institucional. Cada verbete indica as teses relacionadas, de forma que é possível percorrer o banco por encadeamento e não apenas por palavra-chave.</p>
 
     <h3>Limites de uso</h3>
-    <p>Trata-se de material de consulta e ponto de partida. A página não tem vínculo com a ANPD e nenhuma das teses reproduz posição da agência com valor autêntico. As teses são sínteses interpretativas, sujeitas a erro e ao envelhecimento natural conforme a agência evolui seu entendimento. Antes de qualquer uso, a leitura e conferência do documento original é recomendada.</p>
+    <p>Trata-se de material de consulta e ponto de partida. A página não tem vínculo com a ANPD e nenhuma das teses reproduz a posição da agência com valor autêntico. As teses são sínteses interpretativas, sujeitas a erro e ao envelhecimento natural conforme a agência evolui seu entendimento. Antes de qualquer uso, a leitura e conferência do documento original é recomendada.</p>
   </section>
 
   <section class="page" id="pContato">
